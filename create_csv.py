@@ -1,5 +1,7 @@
 import csv
 import random
+#the function creates random combinations of letters 'A', 'G', 'C', 'T'
+#then write the values as a tests.csv file
 def selfCombine( list2Combine, length ):
     listCombined = str( ['list2Combine[i' + str( i ) + ']' for i in range( length )] ).replace( "'", '' ) \
                      + 'for i0 in range(len( list2Combine ) )'
